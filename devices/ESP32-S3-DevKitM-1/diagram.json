@@ -1,0 +1,113 @@
+{
+    "version": "1.0",
+    "name": "ESP32-S3-DevKitM-1",
+    "pins": {
+        "left_start": [22, 46],
+        "rigjht_start": [227, 46],
+        "left": [
+            {
+                "name": "3V3",
+                "supports": ["3V3"],
+                "shape": "square"
+            },
+            {
+                "name": "0",
+                "supports": ["GPIO0", "BOOT"],
+                "shape": "circle"
+            },
+            {
+                "name": "1",
+                "supports": ["GPIO1", "RTC", "TOUCH1", "ADC1_0"],
+                "shape": "circle"
+            },
+            {
+                "name": "2",
+                "supports": ["GPIO2", "RTC", "TOUCH2", "ADC1_1"],
+                "shape": "circle"
+            },
+            {
+                "name": "3",
+                "supports": ["GPIO3", "RTC", "TOUCH3", "ADC1_2", "JTAG"],
+                "shape": "circle"
+            },
+            {
+                "name": "4",
+                "supports": ["GPIO4", "RTC", "TOUCH4", "ADC1_3"],
+                "shape": "circle"
+            },
+            {
+                "name": "5",
+                "supports": ["GPIO5", "RTC", "TOUCH5", "ADC1_4"],
+                "shape": "circle"
+            },
+            {
+                "name": "6",
+                "supports": ["GPIO6", "RTC", "TOUCH6", "ADC1_5"],
+                "shape": "circle"
+            },
+            {
+                "name": "7",
+                "supports": ["GPIO7", "RTC", "TOUCH7", "ADC1_6"],
+                "shape": "circle"
+            },
+            {
+                "name": "8",
+                "supports": ["GPIO8", "RTC", "TOUCH8", "ADC1_7"],
+                "shape": "circle"
+            },
+            {
+                "name": "9",
+                "supports": ["GPIO9", "RTC", "TOUCH9", "ADC1_8", "SUBSPIHD", "FSPIHD"],
+                "shape": "circle"
+            },
+            {
+                "name": "10",
+                "supports": ["GPIO10", "RTC", "TOUCH10", "ADC1_9", "FSPII04", "SUBSPID", "FSPID"],
+                "shape": "circle"
+            },
+            {
+                "name": "11",
+                "supports": ["GPIO11", "RTC", "TOUCH11", "ADC2_0"],
+                "shape": "circle"
+            },
+            {
+                "name": "12",
+                "supports": ["GPIO12", "RTC", "TOUCH12", "ADC2_1", "FSPII06", "SUBSPICLK", "FSPICLK"],
+                "shape": "circle"
+            },
+            {
+                "name": "13",
+                "supports": ["GPIO13", "RTC", "TOUCH13", "ADC2_2", "FSPII07", "SUBSPIQ", "FSPIQ"],
+                "shape": "circle"
+            },
+            {
+                "name": "14",
+                "supports": ["GPIO14", "RTC", "TOUCH14", "ADC2_3", "FSPIDQS", "SUBSPIWP", "FSPIWP"],
+                "shape": "circle"
+            },
+            {
+                "name": "15",
+                "supports": ["GPIO15", "RTC", "U0RTS", "ADC2_4", "XTAL_32K_P"],
+                "shape": "circle"
+            },
+            {
+                "name": "16",
+                "supports": ["GPIO16", "RTC", "U0CTS", "ADC2_5", "XTAL_32K_N"],
+                "shape": "circle"
+            },
+            {
+                "name": "17",
+                "supports": ["GPIO17", "RTC", "U1TXD", "ADC2_6"],
+                "shape": "circle"
+            },
+            {
+                "name": "18",
+                "supports": ["GPIO18", "RTC", "U1RXD", "ADC2_7", "CLK_OUT3"],
+                "shape": "circle"
+            }
+        ],
+        "right": [
+
+        ]
+    }
+}
