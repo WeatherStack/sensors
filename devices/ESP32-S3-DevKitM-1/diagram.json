@@ -107,7 +107,116 @@
             }
         ],
         "right": [
-
+            {
+                "name": "GND",
+                "supports": ["GND"],
+                "shape": "square"
+            },
+            {
+                "name": "RST",
+                "supports": ["RST"],
+                "shape": "circle"
+            },
+            {
+                "name": "46",
+                "supports": ["GPIO46", "LOG"],
+                "shape": "circle"
+            },
+            {
+                "name": "45",
+                "supports": ["GPIO45", "VSPI"],
+                "shape": "circle"
+            },
+            {
+                "name": "RX",
+                "supports": ["U0RXD", "GPIO44", "CLK_OUT2"],
+                "shape": "circle"
+            },
+            {
+                "name": "TX",
+                "supports": ["U0TXD", "GPIO43", "CLK_OUT1"],
+                "shape": "circle"
+            },
+            {
+                "name": "42",
+                "supports": ["MTMS", "GPIO42"],
+                "shape": "circle"
+            },
+            {
+                "name": "41",
+                "supports": ["MTDI", "GPIO41", "CLK_OUT1"],
+                "shape": "circle"
+            },
+            {
+                "name": "40",
+                "supports": ["MTDO", "GPIO40", "CLK_OUT2"],
+                "shape": "circle"
+            },
+            {
+                "name": "39",
+                "supports": ["MTCK", "GPIO39", "CLK_OUT3", "SUBSPICS1"],
+                "shape": "circle"
+            },
+            {
+                "name": "38",
+                "supports": ["GPIO38", "FSPIWP", "SUBSPIWP"],
+                "shape": "circle"
+            },
+            {
+                "name": "37",
+                "supports": ["GPIO37", "SPIDQS", "FSPIQ", "SUBSPIQ"],
+                "shape": "circle"
+            },
+            {
+                "name": "36",
+                "supports": ["GPIO36", "SPIIO7", "FSPICLK", "SUBSPICLK"],
+                "shape": "circle"
+            },
+            {
+                "name": "35",
+                "supports": ["GPIO35", "SPIIO6", "FSPID", "SUBSPID"],
+                "shape": "circle"
+            },
+            {
+                "name": "34",
+                "supports": ["GPIO34", "SPIIO5", "FSPICS0", "SUBSPICS0"],
+                "shape": "circle"
+            },
+            {
+                "name": "33",
+                "supports": ["GPIO33", "SPIIO4", "FSPIHD", "SUBSPIHD"],
+                "shape": "circle"
+            },
+            {
+                "name": "26",
+                "supports": ["GPIO26", "SPICS1"],
+                "shape": "circle"
+            },
+            {
+                "name": "21",
+                "supports": ["GPIO21", "RTC"],
+                "shape": "circle"
+            },
+            {
+                "name": "20",
+                "supports": ["USB_D+", "GPIO20", "RTC", "U1CTS", "ADC2_9", "CLK_OUT1"],
+                "shape": "circle"
+            },
+            {
+                "name": "19",
+                "supports": ["USB_D-", "GPIO19", "RTC", "U1RTS", "ADC2_8", "CLK_OUT2"],
+                "shape": "circle"
+            },
+            {
+                "name": "48",
+                "supports": ["GPIO48", "SPICLK_N", "RGB_LED"],
+                "shape": "circle"
+            },
+            {
+                "name": "47",
+                "supports": ["GPIO47", "SPICLK_P"],
+                "shape": "circle"
+            }
         ]
     }
 }
